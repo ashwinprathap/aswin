@@ -1,0 +1,29 @@
+{% extends 'mainbase.html' %}
+{% block title %}home{% endblock title %}
+
+{% block navs %}
+
+<nav class="nav">
+    <a class="nav-link active" aria-current="page" href="#">home</a>
+    <a class="nav-link" href="{% url 'course' %}">course</a>
+    <a class="nav-link" href="{% url 'gallery'%}">gallery</a>
+    <a class="nav-link" href="{% url 'contact' %}">contact</a>
+    
+    
+  </nav>
+  {% endblock navs %}
+  {% block content %}
+
+  <h1>Welcome to Our College</h1>
+  <h4>V V collage is located on the easternmost part of Palakkad district</h4>
+  <p>only 17 kms from Palakkad town and less than 10 kms from our border with Tamil Nadu, Walayar. 
+    It is easily reachable through NH544 connecting Palakkad with Coimbatore. 
+    The college campus sprawls over 17 acres of land providing enough space for any level of future growth and development.
+     Situated away from urban congestion and pollution, the campus offers an ideal serene atmosphere for learning.
+      It is surrounded by a picturesque landscape comprising paddy fields, green bushes and grassland, and ranges of the Walayar hills in the background with forest clad valleys and trickling streams.
+       Planted greenery around the college adds up to the beauty. 
+       Plentiful supply of pure water drawn out of a perennial open well is an added blessing, particularly in a place like Palakkad.
+        V V College, Kanjikode which has made a humble start with just three UG programmes in 2002, now proudly functions with 10 UG and 2 PG programmes. The programmes of study have been selected with a proper awareness regarding their relevance and importance in the current world scenario.
+         Programmes in Science, commerce, business, and Arts are offered. The teaching and learning process has been so designed that it meets the vision and mission envisaged by the management.
+         Vision</p>
+  {% endblock content %}
